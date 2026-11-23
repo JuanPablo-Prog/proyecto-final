@@ -1,0 +1,14 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    // Catálogo: imágenes públicas de lectura, escritura solo desde la consola.
+    match /destinations/{file} { allow read: if true; allow write: if false; }
+    // Foto de perfil: solo el dueño, máx. 5 MB y solo imágenes.
+    match /users/{uid}/{file} {
+      allow read: if true;
+      allow write: if request.auth != null && request.auth.uid == uid
+                   && request.resource.size < 5 * 1024 * 1024
+                   && request.resource.contentType.matches('image/.*');
+    }
+  }
+}

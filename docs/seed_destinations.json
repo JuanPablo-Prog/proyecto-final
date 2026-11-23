@@ -1,0 +1,50 @@
+{
+  "cancun": {
+    "name": "Cancún y Isla Mujeres", "state": "Quintana Roo", "category": "Playa",
+    "description": "Cinco días de playas de arena blanca, snorkel en arrecifes y un recorrido en lancha a Isla Mujeres. Incluye hospedaje con desayuno y traslados.",
+    "price": 8900, "rating": 4.8, "lat": 21.1619, "lng": -86.8515, "days": 5,
+    "imageUrl": "https://images.unsplash.com/photo-1552074284-5e88ef1aef18?w=1200"
+  },
+  "guanajuato": {
+    "name": "Guanajuato Colonial", "state": "Guanajuato", "category": "Cultura",
+    "description": "Callejones, museos y leyendas: recorrido por el centro histórico, Callejón del Beso y mina de La Valenciana.",
+    "price": 3200, "rating": 4.7, "lat": 21.019, "lng": -101.2574, "days": 3,
+    "imageUrl": "https://images.unsplash.com/photo-1518638150340-f706e86654de?w=1200"
+  },
+  "bacalar": {
+    "name": "Laguna de Bacalar", "state": "Quintana Roo", "category": "Aventura",
+    "description": "La laguna de los siete colores en kayak y velero, cenotes cercanos y atardeceres inolvidables.",
+    "price": 6400, "rating": 4.9, "lat": 18.6772, "lng": -88.3957, "days": 4,
+    "imageUrl": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200"
+  },
+  "valle_bravo": {
+    "name": "Valle de Bravo", "state": "Estado de México", "category": "Pueblo Mágico",
+    "description": "Pueblo Mágico junto a la presa: vuelo en parapente, paseo en lancha y gastronomía local.",
+    "price": 2700, "rating": 4.5, "lat": 19.1925, "lng": -100.1325, "days": 2,
+    "imageUrl": "https://images.unsplash.com/photo-1512813195386-6cf811ad3542?w=1200"
+  },
+  "oaxaca": {
+    "name": "Oaxaca y Hierve el Agua", "state": "Oaxaca", "category": "Cultura",
+    "description": "Mercados, mezcal, Monte Albán y las cascadas petrificadas de Hierve el Agua.",
+    "price": 5200, "rating": 4.8, "lat": 17.0732, "lng": -96.7266, "days": 4,
+    "imageUrl": "https://images.unsplash.com/photo-1518105779142-d975f22f1b0a?w=1200"
+  },
+  "copper_canyon": {
+    "name": "Barrancas del Cobre", "state": "Chihuahua", "category": "Aventura",
+    "description": "Viaje en el tren Chepe, tirolesa y senderismo entre cañones más profundos que el Gran Cañón.",
+    "price": 9800, "rating": 4.7, "lat": 27.5167, "lng": -107.5, "days": 6,
+    "imageUrl": "https://images.unsplash.com/photo-1569949381669-ecf31ae8e613?w=1200"
+  },
+  "tequila": {
+    "name": "Tequila, Pueblo Mágico", "state": "Jalisco", "category": "Pueblo Mágico",
+    "description": "Ruta del tequila en tren, visita a destilerías y paisaje agavero patrimonio de la UNESCO.",
+    "price": 2400, "rating": 4.4, "lat": 20.8826, "lng": -103.8369, "days": 2,
+    "imageUrl": "https://images.unsplash.com/photo-1516550893923-42d28e5677af?w=1200"
+  },
+  "huatulco": {
+    "name": "Bahías de Huatulco", "state": "Oaxaca", "category": "Playa",
+    "description": "Nueve bahías y 36 playas: snorkel, kayak y descanso en la costa oaxaqueña.",
+    "price": 7600, "rating": 4.6, "lat": 15.7694, "lng": -96.1295, "days": 5,
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200"
+  }
+}
